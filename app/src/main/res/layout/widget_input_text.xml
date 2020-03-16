@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+    android:layout_height="@dimen/spacing_xmlarge"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/spacing_middle"
+    android:background="@color/transparent"
+    app:hintEnabled="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textinputdis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edit_text_round_bg_outline"
+        android:textColor="@color/mdtp_white"
+        android:hint=""
+        android:textColorHint="@color/overlay_light_40" />
+
+</com.google.android.material.textfield.TextInputLayout>

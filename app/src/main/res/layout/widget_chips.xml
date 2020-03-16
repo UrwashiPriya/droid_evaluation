@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hootsuite.nachos.NachoTextView android:id="@+id/chip_edtext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_middle"
+    android:background="@android:color/transparent"
+    android:textColor="@color/mdtp_white"
+    android:textColorHint="@color/overlay_light_40"
+    android:completionThreshold="1"
+    android:tag="clusters"
+    android:hint="Hit Return to Add a Tag"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+</com.hootsuite.nachos.NachoTextView>

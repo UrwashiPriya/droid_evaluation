@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<EditText android:id="@+id/dropdown_lay"-->
+<!--    style="@style/EditText.Flat.Grey"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="@dimen/spacing_xmlarge"-->
+<!--    android:layout_marginTop="@dimen/spacing_mlarge"-->
+<!--    android:background="@drawable/edit_text_round_bg_outline"-->
+<!--    android:drawableEnd="@drawable/ic_arrow_drop"-->
+<!--    android:focusable="false"-->
+<!--    android:minHeight="@dimen/spacing_xmlarge"-->
+<!--    android:paddingLeft="@dimen/spacing_middle"-->
+<!--    android:paddingRight="@dimen/spacing_middle"-->
+<!--    android:text="Attribute"-->
+<!--    android:textColor="@color/mdtp_white"-->
+<!--    android:textColorHint="@color/overlay_light_40"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android" />-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/dropdown_lay"
+            android:layout_width="fill_parent"
+            style="@style/EditText.Flat.Grey"
+            android:layout_height="@dimen/spacing_xmlarge"
+            android:background="@drawable/edit_text_round_bg_outline"
+            android:drawableEnd="@drawable/ic_arrow_drop"
+            android:focusable="false"
+            android:minHeight="@dimen/spacing_xmlarge"
+            android:paddingLeft="@dimen/spacing_middle"
+            android:paddingRight="@dimen/spacing_middle"
+            android:textColor="@color/mdtp_white"
+            android:textColorHint="@color/overlay_light_40" />
+        <Button
+            android:id="@+id/clear_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="X" />
+    </LinearLayout>
+</LinearLayout>
+
+    <!--    android:drawableRight="@drawable/ic_arrow_drop"-->
+
+<!--<com.google.android.material.textfield.TextInputLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="@dimen/spacing_xmlarge"-->
+<!--    app:endIconMode="clear_text"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<!--<com.google.android.material.textfield.TextInputEditText-->
+<!--    android:id="@+id/dropdown_lay"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"/>-->
+
+<!--</com.google.android.material.textfield.TextInputLayout>-->

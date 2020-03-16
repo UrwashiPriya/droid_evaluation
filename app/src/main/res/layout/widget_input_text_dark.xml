@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:id="@+id/txtinput"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/spacing_large"
+    android:textColorHint="@color/quantum_black_100"
+    app:boxStrokeColor="@color/quantum_black_secondary_text"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textinputdis_dark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_xxlarge"
+        android:hint="Asset Code"
+        android:padding="0dp"
+        android:text="AST-00067"
+        android:focusable="false"/>
+
+</com.google.android.material.textfield.TextInputLayout>
